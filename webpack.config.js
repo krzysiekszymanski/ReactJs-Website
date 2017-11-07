@@ -5,7 +5,7 @@ const path = require("path");
 module.exports = {
     entry : {
         'src/out.js': './src/Index.jsx',
-        //'css/css/style.css~': './css/scss/style.scss'
+        'css/style.css~': './css/scss/style.scss'
     },
     output : {
         path: __dirname+'/',
@@ -29,9 +29,13 @@ module.exports = {
                 exclude: /node_modules/,
                 use: ExtractTextPlugin.extract({
                     fallback: 'style-loader',
-                        use: ['css-loader','postcss-loader', 'resolve-url-loader' ,'sass-loader?sourceMap=true', ]
+                        use: ['css-loader', 'resolve-url-loader' ,'sass-loader?sourceMap=true', ]
                 })
 
+            },
+            {
+                test: /\.css$/,
+                use: [ 'style-loader', 'css-loader' ]
             },
             {
                 test: /\.(png|jpg|gif)$/,
@@ -49,8 +53,10 @@ module.exports = {
                 ]
             }
        ]
+
     },
     plugins: [
         new ExtractTextPlugin('./css/css/style.css')
     ]
+
 }
