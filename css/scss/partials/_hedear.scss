@@ -1,3 +1,10 @@
 header {
-  background-color: yellow;
+  background: url("../../../images/bg_header.jpg") no-repeat center/cover;
+  height: 300px;
+  &::before {
+    display: block;
+    height: 10px;
+    content: '';
+    background-color: $main_color;
+  }
 }

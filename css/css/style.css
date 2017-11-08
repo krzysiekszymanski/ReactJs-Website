@@ -8,5 +8,13 @@
 }
 
 header {
-  background-color: yellow;
+  background: url(=assets/bg_header.jpg) no-repeat center/cover;
+  height: 300px;
+}
+
+header::before {
+  display: block;
+  height: 10px;
+  content: '';
+  background-color: #2ecc71;
 }

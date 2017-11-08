@@ -22256,7 +22256,7 @@ exports = module.exports = __webpack_require__(188)(undefined);
 
 
 // module
-exports.push([module.i, "* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n  font-family: 'Montserrat', sans-serif;\n  color: #444444;\n  font-size: 62.5%;\n}\n\nheader {\n  background-color: yellow;\n}", ""]);
+exports.push([module.i, "* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n  font-family: 'Montserrat', sans-serif;\n  color: #444444;\n  font-size: 62.5%;\n}\n\nheader {\n  background: url(=assets/bg_header.jpg) no-repeat center/cover;\n  height: 300px;\n}\n\nheader::before {\n  display: block;\n  height: 10px;\n  content: '';\n  background-color: #2ecc71;\n}", ""]);
 
 // exports
 
