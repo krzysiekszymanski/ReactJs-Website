@@ -21,6 +21,13 @@
       border-radius: 50%;
       display: block;
     }
+    span:nth-of-type(2) {
+      content: url("../../../images/world.png");
+    }
+    span:last-of-type {
+      content: url("../../../images/star.png");
+    }
+
     h2 {
       font-size: 2.2rem;
       color: #000000;
@@ -30,6 +37,6 @@
       font-size: 1.6rem;
       color: #848484;
     }
-  }
 
+  }
 }

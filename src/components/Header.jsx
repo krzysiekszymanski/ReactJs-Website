@@ -1,12 +1,12 @@
 import React from 'react';
-import styles from '../../css/css/style.css';
+import '../../css/css/style.css';
 
 
 
 class Header extends React.Component {
     render() {
         return (
-            <header className={styles, "header"}>
+            <header className={"header"}>
                 <div className={"container"}>
                     <div className="box">
                         <h1>Notify</h1>

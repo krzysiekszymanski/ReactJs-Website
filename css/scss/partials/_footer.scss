@@ -1,0 +1,16 @@
+footer {
+  background-color: $second_color;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  ul{
+    text-align: center;
+    li {
+      margin: 0 10px;
+      display: inline-block;
+      font-size: 16px;
+      opacity: 0.7;
+    }
+  }
+}

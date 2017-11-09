@@ -1,10 +1,19 @@
 import React from 'react';
+import '../../css/css/style.css';
 
 class Footer extends React.Component {
     render() {
         return (
-
-            <div>to jest Footer</div>
+            <footer>
+                <ul>
+                    <li>Contact</li>
+                    <li>Download</li>
+                    <li>Press</li>
+                    <li>Email</li>
+                    <li>Support</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </footer>
 
 
         )
