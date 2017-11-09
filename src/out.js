@@ -22140,8 +22140,8 @@ var App = function (_Component) {
                 'div',
                 null,
                 _react2.default.createElement(_Header2.default, null),
-                _react2.default.createElement(_Notiffied2.default, null),
                 _react2.default.createElement(_Features2.default, null),
+                _react2.default.createElement(_Notiffied2.default, null),
                 _react2.default.createElement(_Testemonials2.default, null),
                 _react2.default.createElement(_Footer2.default, null)
             );
@@ -22196,16 +22196,33 @@ var Header = function (_React$Component) {
         value: function render() {
             return _react2.default.createElement(
                 'header',
-                { className: _style2.default.header },
+                { className: (_style2.default, "header") },
                 _react2.default.createElement(
-                    'h2',
-                    null,
-                    'a to jest nag\u0142\xF3wek'
-                ),
-                _react2.default.createElement(
-                    'p',
-                    null,
-                    'to jest tekst'
+                    'div',
+                    { className: "container" },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'box' },
+                        _react2.default.createElement(
+                            'h1',
+                            null,
+                            'Notify'
+                        ),
+                        _react2.default.createElement(
+                            'p',
+                            null,
+                            'A great new free psd theme to showcase ',
+                            _react2.default.createElement('br', null),
+                            ' your new aplication'
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: "social" },
+                            _react2.default.createElement('span', null),
+                            _react2.default.createElement('span', null),
+                            _react2.default.createElement('span', null)
+                        )
+                    )
                 )
             );
         }
@@ -22256,7 +22273,7 @@ exports = module.exports = __webpack_require__(188)(undefined);
 
 
 // module
-exports.push([module.i, "* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n  font-family: 'Montserrat', sans-serif;\n  color: #444444;\n  font-size: 62.5%;\n}\n\nheader {\n  background: url(=assets/bg_header.jpg) no-repeat center/cover;\n  height: 300px;\n}\n\nheader::before {\n  display: block;\n  height: 10px;\n  content: '';\n  background-color: #2ecc71;\n}", ""]);
+exports.push([module.i, "* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n  font-family: 'Montserrat', sans-serif;\n  color: #444444;\n  font-size: 62.5%;\n}\n\nheader {\n  background: url(=/assets/bg_header.jpg) no-repeat center/cover;\n  height: 600px;\n}\n\nheader::before {\n  display: block;\n  height: 10px;\n  content: '';\n  background-color: #2ecc71;\n}\n\nheader .box {\n  margin: 200px 0;\n}\n\nheader .box h1 {\n  font-size: 6rem;\n  color: #ffffff;\n  margin-bottom: 20px;\n}\n\nheader .box p {\n  color: #ffffff;\n  font-size: 2.4rem;\n  margin-bottom: 20px;\n}\n\nheader .box .social {\n  flex-direction: row;\n}\n\nheader .box .social span {\n  cursor: pointer;\n  display: inline-block;\n  opacity: 0.7;\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  background-color: #36241A;\n  margin-right: 17px;\n  z-index: 1;\n  transition: 0.7s;\n}\n\nheader .box .social :first-of-type {\n  content: url(=/assets/icon_apple.png);\n  padding: 12px;\n}\n\nheader .box .social :nth-of-type(2) {\n  content: url(=/assets/icon_android.png);\n  padding: 12px;\n}\n\nheader .box .social :last-of-type {\n  content: url(=/assets/icon_windows.png);\n  padding: 12px;\n}\n\nheader .box .social :hover {\n  background-color: #2ecc71;\n  padding: 10px;\n}\n\n.features {\n  background: #ffffff;\n  height: 338px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  width: 100%;\n  max-width: 1100px;\n}\n\n.features div {\n  display: flex;\n  flex-direction: column;\n  width: 300px;\n  align-items: center;\n  text-align: center;\n}\n\n.features div span {\n  content: url(=/assets/kol.png);\n  padding: 15px;\n  background: #2ecc71;\n  width: 100px;\n  height: 100px;\n  border-radius: 50%;\n  display: block;\n}\n\n.features div h2 {\n  font-size: 2.2rem;\n  color: #000000;\n  margin: 30px 0;\n}\n\n.features div p {\n  font-size: 1.6rem;\n  color: #848484;\n}\n\n.notiffied {\n  height: 430px;\n  background-color: #E2E2E2;\n  display: block;\n}\n\n.notiffied aside {\n  width: 50%;\n}\n\n.notiffied aside h2 {\n  font-size: 2.2rem;\n  color: #000000;\n  font-weight: 700;\n  padding: 55px 0 25px 0;\n}\n\n.notiffied aside p {\n  font-size: 1.6rem;\n  color: #848484;\n  font-weight: 300;\n  margin-bottom: 35px;\n}\n\n.notiffied aside input {\n  width: 300px;\n  border-radius: 10px 0 0 10px;\n  height: 56px;\n  border: 1px;\n}\n\n.notiffied aside a {\n  cursor: pointer;\n  text-decoration: none;\n  background-color: #2ecc71;\n  padding-top: 17px;\n  padding-bottom: 21px;\n  font-size: 1.6rem;\n  color: #ffffff;\n  line-height: 16px;\n  width: 135px;\n  display: inline-block;\n  text-align: center;\n  border-radius: 0 10px 10px 0;\n}\n\n.container {\n  display: block;\n  width: 100%;\n  max-width: 1100px;\n  margin: 0 auto;\n}\n\n.row::after {\n  content: \"\";\n  display: block;\n  clear: both;\n}", ""]);
 
 // exports
 
@@ -22814,6 +22831,10 @@ var _react = __webpack_require__(14);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _style = __webpack_require__(186);
+
+var _style2 = _interopRequireDefault(_style);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -22835,9 +22856,33 @@ var Notiffied = function (_React$Component) {
         key: 'render',
         value: function render() {
             return _react2.default.createElement(
-                'div',
-                null,
-                'to jest Notiffied'
+                'section',
+                { className: (_style2.default, "notiffied") },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'container' },
+                    _react2.default.createElement(
+                        'aside',
+                        null,
+                        _react2.default.createElement(
+                            'h2',
+                            null,
+                            'Get Notified Of Any Updates'
+                        ),
+                        _react2.default.createElement(
+                            'p',
+                            null,
+                            'Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim. Phasellus fermentum in, dolor. Pellentesque facilisis.'
+                        ),
+                        _react2.default.createElement('input', { type: 'text', placeholder: "Email Adress" }),
+                        _react2.default.createElement(
+                            'a',
+                            { href: '#' },
+                            'Notiffy'
+                        )
+                    ),
+                    _react2.default.createElement('div', { className: 'video' })
+                )
             );
         }
     }]);
@@ -22864,6 +22909,10 @@ var _react = __webpack_require__(14);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _style = __webpack_require__(186);
+
+var _style2 = _interopRequireDefault(_style);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -22885,9 +22934,57 @@ var Features = function (_React$Component) {
         key: 'render',
         value: function render() {
             return _react2.default.createElement(
-                'div',
-                null,
-                'to jest Features'
+                'section',
+                { className: (_style2.default, "container") },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'features' },
+                    _react2.default.createElement(
+                        'div',
+                        null,
+                        _react2.default.createElement('span', null),
+                        _react2.default.createElement(
+                            'h2',
+                            null,
+                            'Editable Theme'
+                        ),
+                        _react2.default.createElement(
+                            'p',
+                            null,
+                            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt'
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        null,
+                        _react2.default.createElement('span', null),
+                        _react2.default.createElement(
+                            'h2',
+                            null,
+                            'Editable Theme'
+                        ),
+                        _react2.default.createElement(
+                            'p',
+                            null,
+                            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt'
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        null,
+                        _react2.default.createElement('span', null),
+                        _react2.default.createElement(
+                            'h2',
+                            null,
+                            'Editable Theme'
+                        ),
+                        _react2.default.createElement(
+                            'p',
+                            null,
+                            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt'
+                        )
+                    )
+                )
             );
         }
     }]);

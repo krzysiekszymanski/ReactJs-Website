@@ -1,0 +1,41 @@
+.notiffied {
+  height: 430px;
+  background-color: #E2E2E2;
+  display: block;
+  aside {
+    width: 50%;
+    h2{
+      font-size: 2.2rem;
+      color: #000000;
+      font-weight: 700;
+      padding: 55px 0 25px 0;
+    }
+    p{
+      font-size: 1.6rem;
+      color: #848484;
+      font-weight: 300;
+      margin-bottom: 35px;
+    }
+    input {
+      width: 300px;
+      border-radius: 10px 0 0 10px;
+      height: 56px;
+      border: 1px;
+    }
+    a {
+      cursor:pointer;
+      text-decoration: none;
+      background-color: $main_color;
+      padding-top: 17px;
+      padding-bottom: 21px;
+      font-size: 1.6rem;
+      color: #ffffff;
+      line-height: 16px;
+      width: 135px;
+      display: inline-block;
+      text-align: center;
+      border-radius: 0 10px 10px 0;
+    }
+  }
+
+}

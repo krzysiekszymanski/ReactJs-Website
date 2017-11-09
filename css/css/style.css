@@ -8,8 +8,8 @@
 }
 
 header {
-  background: url(=assets/bg_header.jpg) no-repeat center/cover;
-  height: 300px;
+  background: url(=/assets/bg_header.jpg) no-repeat center/cover;
+  height: 600px;
 }
 
 header::before {
@@ -17,4 +17,155 @@ header::before {
   height: 10px;
   content: '';
   background-color: #2ecc71;
+}
+
+header .box {
+  margin: 200px 0;
+}
+
+header .box h1 {
+  font-size: 6rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+header .box p {
+  color: #ffffff;
+  font-size: 2.4rem;
+  margin-bottom: 20px;
+}
+
+header .box .social {
+  flex-direction: row;
+}
+
+header .box .social span {
+  cursor: pointer;
+  display: inline-block;
+  opacity: 0.7;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #36241A;
+  margin-right: 17px;
+  z-index: 1;
+  transition: 0.7s;
+}
+
+header .box .social :first-of-type {
+  content: url(=/assets/icon_apple.png);
+  padding: 12px;
+}
+
+header .box .social :nth-of-type(2) {
+  content: url(=/assets/icon_android.png);
+  padding: 12px;
+}
+
+header .box .social :last-of-type {
+  content: url(=/assets/icon_windows.png);
+  padding: 12px;
+}
+
+header .box .social :hover {
+  background-color: #2ecc71;
+  padding: 10px;
+}
+
+.features {
+  background: #ffffff;
+  height: 338px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1100px;
+}
+
+.features div {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  align-items: center;
+  text-align: center;
+}
+
+.features div span {
+  content: url(=/assets/kol.png);
+  padding: 15px;
+  background: #2ecc71;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+}
+
+.features div h2 {
+  font-size: 2.2rem;
+  color: #000000;
+  margin: 30px 0;
+}
+
+.features div p {
+  font-size: 1.6rem;
+  color: #848484;
+}
+
+.notiffied {
+  height: 430px;
+  background-color: #E2E2E2;
+  display: block;
+}
+
+.notiffied aside {
+  width: 50%;
+}
+
+.notiffied aside h2 {
+  font-size: 2.2rem;
+  color: #000000;
+  font-weight: 700;
+  padding: 55px 0 25px 0;
+}
+
+.notiffied aside p {
+  font-size: 1.6rem;
+  color: #848484;
+  font-weight: 300;
+  margin-bottom: 35px;
+}
+
+.notiffied aside input {
+  width: 300px;
+  border-radius: 10px 0 0 10px;
+  height: 56px;
+  border: 1px;
+}
+
+.notiffied aside a {
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #2ecc71;
+  padding-top: 17px;
+  padding-bottom: 21px;
+  font-size: 1.6rem;
+  color: #ffffff;
+  line-height: 16px;
+  width: 135px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 0 10px 10px 0;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.row::after {
+  content: "";
+  display: block;
+  clear: both;
 }

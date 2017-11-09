@@ -13,8 +13,8 @@ class App extends Component {
         return (
             <div>
                 <Header />
-                <Notiffied />
                 <Features />
+                <Notiffied />
                 <Testemonials />
                 <Footer />
             </ div>

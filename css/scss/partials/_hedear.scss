@@ -1,10 +1,60 @@
-header {
+ header {
   background: url("../../../images/bg_header.jpg") no-repeat center/cover;
-  height: 300px;
-  &::before {
-    display: block;
-    height: 10px;
-    content: '';
-    background-color: $main_color;
-  }
+  height: 600px;
+
+   &::before {
+     display: block;
+     height: 10px;
+     content: '';
+     background-color: $main_color;
+   }
+   .box {
+    margin: 200px 0;
+     h1 {
+       font-size: 6rem;
+       color: #ffffff;
+       margin-bottom: 20px;
+     }
+     p {
+       color: #ffffff;
+       font-size: 2.4rem;
+       margin-bottom: 20px;
+     }
+     .social {
+       flex-direction: row;
+       span {
+         cursor:pointer;
+         display: inline-block;
+         opacity: 0.7;
+         width: 50px;
+         height: 50px;
+         border-radius: 50%;
+         background-color: #36241A;
+         margin-right: 17px;
+         z-index: 1;
+         transition: 0.7s;
+       }
+
+       :first-of-type {
+         content: url("../../../images/icon_apple.png");
+         padding: 12px;
+       }
+       :nth-of-type(2) {
+         content: url("../../../images/icon_android.png");
+         padding: 12px;
+       }
+       :last-of-type{
+         content: url("../../../images/icon_windows.png");
+         padding: 12px;
+       }
+       :hover {
+         background-color: $main_color;
+         padding: 10px;
+
+       }
+     }
+
+   }
+
+
 }
