@@ -103,14 +103,6 @@ header .box .social :hover {
   display: block;
 }
 
-.features div span:nth-of-type(2) {
-  content: url(=/assets/world.png);
-}
-
-.features div span:last-of-type {
-  content: url(=/assets/star.png);
-}
-
 .features div h2 {
   font-size: 2.2rem;
   color: #000000;
@@ -120,6 +112,14 @@ header .box .social :hover {
 .features div p {
   font-size: 1.6rem;
   color: #848484;
+}
+
+.features :nth-of-type(2) span {
+  content: url(=/assets/world.png);
+}
+
+.features :last-of-type span {
+  content: url(=/assets/star.png);
 }
 
 .notiffied {
