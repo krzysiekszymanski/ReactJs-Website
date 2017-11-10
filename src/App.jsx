@@ -16,7 +16,7 @@ class App extends Component {
 
     getWebData(){
       $.ajax({
-          url:"http://localhost:3001/webData.json",
+          url:"webData.json",
           dataType:'json',
           cache: false,
           success: function(data){
