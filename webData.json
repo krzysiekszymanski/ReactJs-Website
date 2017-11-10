@@ -1,0 +1,62 @@
+{
+  "header": {
+    "title":"Notify",
+    "description":"A great new free psd theme to showcase your new aplication",
+    "social":[
+      {
+        "name":"apple",
+        "url":"http://facebook.com/krzysiek.szymanski.58910",
+        "className":"social-circle"
+      },
+      {
+        "name":"android",
+        "url":"http://googleplus.com",
+        "className":"social-circle"
+      },
+      {
+        "name":"windows",
+        "url":"https://www.linkedin.com/in/krzysztof-szyma%C5%84ski-b0264aa4/",
+        "className":"social-circle"
+      }
+    ]
+  },
+  "features":{
+    "editable":[
+      {
+        "id": "1",
+        "title":"Editable Theme1",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+        "className":"box"
+      },
+      {
+        "id": "2",
+        "title":"Editable Theme2",
+        "description":"Lorem2 ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+        "className":"box"
+      },
+      {
+        "id": "3",
+        "title":"Editable Theme3",
+        "description":"Lorem3 ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+        "className":"box"
+      }
+    ]
+
+  },
+  "article":{
+        "title":"Get Notified Of Any Updates",
+        "text": "Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim. Phasellus fermentum in, dolor. Pellentesque facilisis."
+
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+        "user":"Jane Hunt"
+      }
+    ]
+  },
+  "footer": {
+    "nav": ["Contact", "Download", "Press", "Email", "Support", "Privacy Policy"]
+  }
+}

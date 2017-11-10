@@ -3,12 +3,17 @@ import '../../css/css/style.css';
 
 class Notiffied extends React.Component {
     render() {
+        if(this.props.data) {
+            var title = this.props.data.title;
+            var text = this.props.data.text;
+
+        }
         return (
                 <section className={"notiffied"}>
                     <div className="content">
                         <aside>
-                            <h2>Get Notified Of Any Updates</h2>
-                            <p>Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim. Phasellus fermentum in, dolor. Pellentesque facilisis.</p>
+                            <h2>{title}</h2>
+                            <p>{text}</p>
                             <input type="text" placeholder={"Email Adress"}/><a href="#">Notiffy</a>
                         </aside>
                         <div className="video">

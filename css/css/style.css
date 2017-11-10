@@ -33,6 +33,7 @@ header .box h1 {
 }
 
 header .box p {
+  width: 500px;
   color: #ffffff;
   font-size: 2.4rem;
   margin-bottom: 20px;
@@ -42,7 +43,7 @@ header .box .social {
   flex-direction: row;
 }
 
-header .box .social span {
+header .box .social .social-circle {
   cursor: pointer;
   display: inline-block;
   opacity: 0.7;
@@ -85,7 +86,7 @@ header .box .social :hover {
   max-width: 1100px;
 }
 
-.features div {
+.features .box {
   display: flex;
   flex-direction: column;
   width: 300px;
@@ -93,7 +94,7 @@ header .box .social :hover {
   text-align: center;
 }
 
-.features div span {
+.features .box span {
   content: url(=/assets/kol.png);
   padding: 15px;
   background: #2ecc71;
@@ -103,13 +104,13 @@ header .box .social :hover {
   display: block;
 }
 
-.features div h2 {
+.features .box h2 {
   font-size: 2.2rem;
   color: #000000;
   margin: 30px 0;
 }
 
-.features div p {
+.features .box p {
   font-size: 1.6rem;
   color: #848484;
 }
