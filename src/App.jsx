@@ -16,7 +16,7 @@ class App extends Component {
 
     getWebData(){
       $.ajax({
-          url:"../webData.json",
+          url:"https://krzysiekszymanski.github.io/ReactJs-Website/webData.json",
           dataType:'json',
           cache: false,
           success: function(data){
