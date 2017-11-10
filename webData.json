@@ -49,12 +49,34 @@
 
   },
   "testimonials":{
-    "testimonials":[
-      {
         "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-        "user":"Jane Hunt"
-      }
-    ]
+        "author":"Jane Hunt",
+        "social":[
+          {
+            "name":"twitter",
+            "url":"http://twiter.com"
+          },
+          {
+            "name":"facebook",
+            "url":"http://facebook.com"
+          },
+          {
+            "name":"pintrest",
+            "url":"https://www.pintrest.com"
+          },
+          {
+            "name":"googleplus",
+            "url":"https://www.google.com"
+          },
+          {
+            "name":"linkedin",
+            "url":"https://www.linkedin.com"
+          },
+          {
+            "name":"youtoube",
+            "url":"https://www.youtube.com"
+          }
+        ]
   },
   "footer": {
     "nav": ["Contact", "Download", "Press", "Email", "Support", "Privacy Policy"]

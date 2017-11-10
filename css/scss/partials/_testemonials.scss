@@ -34,7 +34,8 @@
     font-weight: 700;
   }
   .test_social {
-    span {
+    li {
+      margin-top: 30px;
       cursor: pointer;
       width: 35px;
       height: 35px;
@@ -49,17 +50,17 @@
     :nth-of-type(2) {
       content: url("../../../images/social_face.png");
     }
-    span:nth-of-type(3) {
+    li:nth-of-type(3) {
       content: url("../../../images/social_pinters.png");
     }
-    span:nth-of-type(4) {
+    li:nth-of-type(4) {
       content: url("../../../images/social_googleplus.png");
     }
-    span:nth-of-type(5) {
+    li:nth-of-type(5) {
       content: url("../../../images/social_linked.png");
       padding: 2px;
     }
-    span:nth-of-type(6) {
+    li:nth-of-type(6) {
       content: url("../../../images/social_you.png");
     }
     :hover {

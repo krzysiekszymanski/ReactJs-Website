@@ -6,7 +6,6 @@ import Features from './components/Features.jsx';
 import Testemonials from './components/Testemonials.jsx';
 import Footer from './components/Footer.jsx';
 
-
 class App extends Component {
     constructor(props) {
         super(props);
@@ -17,7 +16,7 @@ class App extends Component {
 
     getWebData(){
       $.ajax({
-          url:"webData.json",
+          url:"http://localhost:3001/webData.json",
           dataType:'json',
           cache: false,
           success: function(data){
@@ -33,7 +32,6 @@ class App extends Component {
     componentDidMount(){
         this.getWebData();
     }
-
     render() {
         return (
             <div>
@@ -43,7 +41,6 @@ class App extends Component {
                 <Testemonials data ={this.state.webData.testimonials}/>
                 <Footer data ={this.state.webData.footer}/>
             </ div>
-
         )
     }
 }

@@ -22177,7 +22177,7 @@ var App = function (_Component) {
         key: 'getWebData',
         value: function getWebData() {
             _jquery2.default.ajax({
-                url: "webData.json",
+                url: "http://localhost:3001/webData.json",
                 dataType: 'json',
                 cache: false,
                 success: function (data) {
@@ -32569,7 +32569,7 @@ exports = module.exports = __webpack_require__(189)(undefined);
 
 
 // module
-exports.push([module.i, "* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n  font-family: 'Lato', sans-serif;\n  color: #444444;\n  font-size: 62.5%;\n}\n\nheader {\n  background: url(=/assets/bg_header.jpg) no-repeat center/cover;\n  height: 600px;\n}\n\nheader::before {\n  display: block;\n  height: 10px;\n  content: '';\n  background-color: #2ecc71;\n}\n\nheader .box {\n  margin: 200px 0;\n}\n\nheader .box h1 {\n  font-family: 'Pacifico', cursive;\n  font-style: italic;\n  font-size: 6rem;\n  font-weight: 500;\n  color: #ffffff;\n  margin-bottom: 20px;\n}\n\nheader .box p {\n  width: 500px;\n  color: #ffffff;\n  font-size: 2.4rem;\n  margin-bottom: 20px;\n}\n\nheader .box .social {\n  flex-direction: row;\n}\n\nheader .box .social .social-circle {\n  cursor: pointer;\n  display: inline-block;\n  opacity: 0.7;\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  background-color: #36241A;\n  margin-right: 17px;\n  z-index: 1;\n  transition: 0.7s;\n}\n\nheader .box .social :first-of-type {\n  content: url(=/assets/icon_apple.png);\n  padding: 12px;\n}\n\nheader .box .social :nth-of-type(2) {\n  content: url(=/assets/icon_android.png);\n  padding: 12px;\n}\n\nheader .box .social :last-of-type {\n  content: url(=/assets/icon_windows.png);\n  padding: 12px;\n}\n\nheader .box .social :hover {\n  background-color: #2ecc71;\n  padding: 10px;\n}\n\n.features {\n  background: #ffffff;\n  height: 338px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  width: 100%;\n  max-width: 1100px;\n}\n\n.features .box {\n  display: flex;\n  flex-direction: column;\n  width: 300px;\n  align-items: center;\n  text-align: center;\n}\n\n.features .box span {\n  content: url(=/assets/kol.png);\n  padding: 15px;\n  background: #2ecc71;\n  width: 100px;\n  height: 100px;\n  border-radius: 50%;\n  display: block;\n}\n\n.features .box h2 {\n  font-size: 2.2rem;\n  color: #000000;\n  margin: 30px 0;\n}\n\n.features .box p {\n  font-size: 1.6rem;\n  color: #848484;\n}\n\n.features :nth-of-type(2) span {\n  content: url(=/assets/world.png);\n}\n\n.features :last-of-type span {\n  content: url(=/assets/star.png);\n}\n\n.notiffied {\n  height: 430px;\n  background-color: #e2e2e2;\n  display: flex;\n}\n\n.notiffied .content {\n  width: 100%;\n  max-width: 1100px;\n  display: flex;\n  margin: 0 auto;\n}\n\n.notiffied .content aside {\n  width: 50%;\n}\n\n.notiffied .content aside h2 {\n  font-size: 2.2rem;\n  color: #000000;\n  font-weight: 700;\n  padding: 55px 0 25px 0;\n}\n\n.notiffied .content aside p {\n  margin-right: 40px;\n  font-size: 1.6rem;\n  color: #848484;\n  font-weight: 300;\n  margin-bottom: 35px;\n}\n\n.notiffied .content aside input {\n  width: 300px;\n  border-radius: 10px 0 0 10px;\n  height: 56px;\n  border: 1px;\n}\n\n.notiffied .content aside ::-webkit-input-placeholder {\n  font-size: 1.6rem;\n  padding-left: 10px;\n  opacity: 0.5;\n}\n\n.notiffied .content aside a {\n  cursor: pointer;\n  text-decoration: none;\n  background-color: #2ecc71;\n  padding-top: 17px;\n  padding-bottom: 21px;\n  font-size: 1.6rem;\n  color: #ffffff;\n  line-height: 16px;\n  width: 135px;\n  display: inline-block;\n  text-align: center;\n  border-radius: 0 10px 10px 0;\n}\n\n.notiffied .content .video {\n  width: 50%;\n  display: flex;\n  justify-content: center;\n}\n\n.notiffied .content .video div {\n  margin: 55px 0 25px 0;\n  background: url(=/assets/video.png) no-repeat center/cover;\n  width: 100%;\n  height: 300px;\n  border-radius: 5px;\n}\n\n.testemonials {\n  height: 470px;\n  text-align: center;\n  width: 100%;\n  max-width: 1100px;\n  margin: 0 auto;\n}\n\n.testemonials p {\n  font-size: 1.8rem;\n  font-weight: 300;\n  opacity: 0.5;\n  margin-top: 60px;\n  font-style: italic;\n}\n\n.testemonials p:last-of-type {\n  margin: 0;\n  font-style: normal;\n}\n\n.testemonials span {\n  font-size: 1.8rem;\n  font-weight: 700;\n  margin: 30px 0;\n  display: block;\n}\n\n.testemonials .photo {\n  margin: 0 20px;\n  background: url(=/assets/testiomonilas.png) no-repeat center/cover;\n  width: 100%;\n  height: 50px;\n}\n\n.testemonials h2 {\n  margin: 50px 0 20px 0;\n  font-size: 2.2rem;\n  color: #000000;\n  font-weight: 700;\n}\n\n.testemonials .test_social span {\n  cursor: pointer;\n  width: 35px;\n  height: 35px;\n  border-radius: 50%;\n  background-color: #e2e2e2;\n  display: inline-block;\n  margin-right: 10px;\n  transition: 0.7s;\n  content: url(=/assets/social_twiter.png);\n  padding: 7px;\n}\n\n.testemonials .test_social :nth-of-type(2) {\n  content: url(=/assets/social_face.png);\n}\n\n.testemonials .test_social span:nth-of-type(3) {\n  content: url(=/assets/social_pinters.png);\n}\n\n.testemonials .test_social span:nth-of-type(4) {\n  content: url(=/assets/social_googleplus.png);\n}\n\n.testemonials .test_social span:nth-of-type(5) {\n  content: url(=/assets/social_linked.png);\n  padding: 2px;\n}\n\n.testemonials .test_social span:nth-of-type(6) {\n  content: url(=/assets/social_you.png);\n}\n\n.testemonials .test_social :hover {\n  opacity: 0.9;\n  background-color: #2ecc71;\n}\n\nfooter {\n  background-color: #e2e2e2;\n  height: 130px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\nfooter ul {\n  text-align: center;\n}\n\nfooter ul li {\n  margin: 0 10px;\n  display: inline-block;\n  font-size: 16px;\n  opacity: 0.7;\n}\n\n.container {\n  display: block;\n  width: 100%;\n  max-width: 1100px;\n  margin: 0 auto;\n}\n\n.row::after {\n  content: \"\";\n  display: block;\n  clear: both;\n}", ""]);
+exports.push([module.i, "* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n  font-family: 'Lato', sans-serif;\n  color: #444444;\n  font-size: 62.5%;\n}\n\nheader {\n  background: url(=/assets/bg_header.jpg) no-repeat center/cover;\n  height: 600px;\n}\n\nheader::before {\n  display: block;\n  height: 10px;\n  content: '';\n  background-color: #2ecc71;\n}\n\nheader .box {\n  margin: 200px 0;\n}\n\nheader .box h1 {\n  font-family: 'Pacifico', cursive;\n  font-style: italic;\n  font-size: 6rem;\n  font-weight: 500;\n  color: #ffffff;\n  margin-bottom: 20px;\n}\n\nheader .box p {\n  width: 500px;\n  color: #ffffff;\n  font-size: 2.4rem;\n  margin-bottom: 20px;\n}\n\nheader .box .social {\n  flex-direction: row;\n}\n\nheader .box .social .social-circle {\n  cursor: pointer;\n  display: inline-block;\n  opacity: 0.7;\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  background-color: #36241A;\n  margin-right: 17px;\n  z-index: 1;\n  transition: 0.7s;\n}\n\nheader .box .social :first-of-type {\n  content: url(=/assets/icon_apple.png);\n  padding: 12px;\n}\n\nheader .box .social :nth-of-type(2) {\n  content: url(=/assets/icon_android.png);\n  padding: 12px;\n}\n\nheader .box .social :last-of-type {\n  content: url(=/assets/icon_windows.png);\n  padding: 12px;\n}\n\nheader .box .social :hover {\n  background-color: #2ecc71;\n  padding: 10px;\n}\n\n.features {\n  background: #ffffff;\n  height: 338px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  width: 100%;\n  max-width: 1100px;\n}\n\n.features .box {\n  display: flex;\n  flex-direction: column;\n  width: 300px;\n  align-items: center;\n  text-align: center;\n}\n\n.features .box span {\n  content: url(=/assets/kol.png);\n  padding: 15px;\n  background: #2ecc71;\n  width: 100px;\n  height: 100px;\n  border-radius: 50%;\n  display: block;\n}\n\n.features .box h2 {\n  font-size: 2.2rem;\n  color: #000000;\n  margin: 30px 0;\n}\n\n.features .box p {\n  font-size: 1.6rem;\n  color: #848484;\n}\n\n.features :nth-of-type(2) span {\n  content: url(=/assets/world.png);\n}\n\n.features :last-of-type span {\n  content: url(=/assets/star.png);\n}\n\n.notiffied {\n  height: 430px;\n  background-color: #e2e2e2;\n  display: flex;\n}\n\n.notiffied .content {\n  width: 100%;\n  max-width: 1100px;\n  display: flex;\n  margin: 0 auto;\n}\n\n.notiffied .content aside {\n  width: 50%;\n}\n\n.notiffied .content aside h2 {\n  font-size: 2.2rem;\n  color: #000000;\n  font-weight: 700;\n  padding: 55px 0 25px 0;\n}\n\n.notiffied .content aside p {\n  margin-right: 40px;\n  font-size: 1.6rem;\n  color: #848484;\n  font-weight: 300;\n  margin-bottom: 35px;\n}\n\n.notiffied .content aside input {\n  width: 300px;\n  border-radius: 10px 0 0 10px;\n  height: 56px;\n  border: 1px;\n}\n\n.notiffied .content aside ::-webkit-input-placeholder {\n  font-size: 1.6rem;\n  padding-left: 10px;\n  opacity: 0.5;\n}\n\n.notiffied .content aside a {\n  cursor: pointer;\n  text-decoration: none;\n  background-color: #2ecc71;\n  padding-top: 17px;\n  padding-bottom: 21px;\n  font-size: 1.6rem;\n  color: #ffffff;\n  line-height: 16px;\n  width: 135px;\n  display: inline-block;\n  text-align: center;\n  border-radius: 0 10px 10px 0;\n}\n\n.notiffied .content .video {\n  width: 50%;\n  display: flex;\n  justify-content: center;\n}\n\n.notiffied .content .video div {\n  margin: 55px 0 25px 0;\n  background: url(=/assets/video.png) no-repeat center/cover;\n  width: 100%;\n  height: 300px;\n  border-radius: 5px;\n}\n\n.testemonials {\n  height: 470px;\n  text-align: center;\n  width: 100%;\n  max-width: 1100px;\n  margin: 0 auto;\n}\n\n.testemonials p {\n  font-size: 1.8rem;\n  font-weight: 300;\n  opacity: 0.5;\n  margin-top: 60px;\n  font-style: italic;\n}\n\n.testemonials p:last-of-type {\n  margin: 0;\n  font-style: normal;\n}\n\n.testemonials span {\n  font-size: 1.8rem;\n  font-weight: 700;\n  margin: 30px 0;\n  display: block;\n}\n\n.testemonials .photo {\n  margin: 0 20px;\n  background: url(=/assets/testiomonilas.png) no-repeat center/cover;\n  width: 100%;\n  height: 50px;\n}\n\n.testemonials h2 {\n  margin: 50px 0 20px 0;\n  font-size: 2.2rem;\n  color: #000000;\n  font-weight: 700;\n}\n\n.testemonials .test_social li {\n  margin-top: 30px;\n  cursor: pointer;\n  width: 35px;\n  height: 35px;\n  border-radius: 50%;\n  background-color: #e2e2e2;\n  display: inline-block;\n  margin-right: 10px;\n  transition: 0.7s;\n  content: url(=/assets/social_twiter.png);\n  padding: 7px;\n}\n\n.testemonials .test_social :nth-of-type(2) {\n  content: url(=/assets/social_face.png);\n}\n\n.testemonials .test_social li:nth-of-type(3) {\n  content: url(=/assets/social_pinters.png);\n}\n\n.testemonials .test_social li:nth-of-type(4) {\n  content: url(=/assets/social_googleplus.png);\n}\n\n.testemonials .test_social li:nth-of-type(5) {\n  content: url(=/assets/social_linked.png);\n  padding: 2px;\n}\n\n.testemonials .test_social li:nth-of-type(6) {\n  content: url(=/assets/social_you.png);\n}\n\n.testemonials .test_social :hover {\n  opacity: 0.9;\n  background-color: #2ecc71;\n}\n\nfooter {\n  background-color: #e2e2e2;\n  height: 130px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\nfooter ul {\n  text-align: center;\n}\n\nfooter ul li {\n  margin: 0 10px;\n  display: inline-block;\n  font-size: 16px;\n  opacity: 0.7;\n}\n\n.container {\n  display: block;\n  width: 100%;\n  max-width: 1100px;\n  margin: 0 auto;\n}\n\n.row::after {\n  content: \"\";\n  display: block;\n  clear: both;\n}", ""]);
 
 // exports
 
@@ -33308,19 +33308,25 @@ var Testemonials = function (_React$Component) {
     _createClass(Testemonials, [{
         key: 'render',
         value: function render() {
-            console.log(this.props);
+            if (this.props.data) {
+                var author = this.props.data.author;
+                var text = this.props.data.text;
+                var networks = this.props.data.social.map(function (network) {
+                    return _react2.default.createElement('li', { key: network.name });
+                });
+            }
             return _react2.default.createElement(
                 'section',
                 { className: "testemonials" },
                 _react2.default.createElement(
                     'p',
                     null,
-                    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation'
+                    text
                 ),
                 _react2.default.createElement(
                     'span',
                     null,
-                    'Jane Hunt'
+                    author
                 ),
                 _react2.default.createElement('div', { className: "photo" }),
                 _react2.default.createElement(
@@ -33334,14 +33340,9 @@ var Testemonials = function (_React$Component) {
                     'Lorem ipsum dolor sit amet, consectetur adipiscing elit,'
                 ),
                 _react2.default.createElement(
-                    'div',
+                    'ul',
                     { className: 'test_social' },
-                    _react2.default.createElement('span', null),
-                    _react2.default.createElement('span', null),
-                    _react2.default.createElement('span', null),
-                    _react2.default.createElement('span', null),
-                    _react2.default.createElement('span', null),
-                    _react2.default.createElement('span', null)
+                    networks
                 )
             );
         }
@@ -33391,42 +33392,23 @@ var Footer = function (_React$Component) {
     _createClass(Footer, [{
         key: 'render',
         value: function render() {
+            if (this.props.data) {
+                var nav = this.props.data.nav.map(function (link) {
+                    return _react2.default.createElement(
+                        'li',
+                        null,
+                        link
+                    );
+                });
+            }
+
             return _react2.default.createElement(
                 'footer',
                 null,
                 _react2.default.createElement(
                     'ul',
                     null,
-                    _react2.default.createElement(
-                        'li',
-                        null,
-                        'Contact'
-                    ),
-                    _react2.default.createElement(
-                        'li',
-                        null,
-                        'Download'
-                    ),
-                    _react2.default.createElement(
-                        'li',
-                        null,
-                        'Press'
-                    ),
-                    _react2.default.createElement(
-                        'li',
-                        null,
-                        'Email'
-                    ),
-                    _react2.default.createElement(
-                        'li',
-                        null,
-                        'Support'
-                    ),
-                    _react2.default.createElement(
-                        'li',
-                        null,
-                        'Privacy Policy'
-                    )
+                    nav
                 )
             );
         }

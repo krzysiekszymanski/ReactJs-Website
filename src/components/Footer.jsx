@@ -3,15 +3,16 @@ import '../../css/css/style.css';
 
 class Footer extends React.Component {
     render() {
+        if(this.props.data){
+            var nav = this.props.data.nav.map(function(link){
+                return <li>{link}</li>
+            });
+        }
+
         return (
             <footer>
                 <ul>
-                    <li>Contact</li>
-                    <li>Download</li>
-                    <li>Press</li>
-                    <li>Email</li>
-                    <li>Support</li>
-                    <li>Privacy Policy</li>
+                    {nav}
                 </ul>
             </footer>
 

@@ -239,7 +239,8 @@ header .box .social :hover {
   font-weight: 700;
 }
 
-.testemonials .test_social span {
+.testemonials .test_social li {
+  margin-top: 30px;
   cursor: pointer;
   width: 35px;
   height: 35px;
@@ -256,20 +257,20 @@ header .box .social :hover {
   content: url(=/assets/social_face.png);
 }
 
-.testemonials .test_social span:nth-of-type(3) {
+.testemonials .test_social li:nth-of-type(3) {
   content: url(=/assets/social_pinters.png);
 }
 
-.testemonials .test_social span:nth-of-type(4) {
+.testemonials .test_social li:nth-of-type(4) {
   content: url(=/assets/social_googleplus.png);
 }
 
-.testemonials .test_social span:nth-of-type(5) {
+.testemonials .test_social li:nth-of-type(5) {
   content: url(=/assets/social_linked.png);
   padding: 2px;
 }
 
-.testemonials .test_social span:nth-of-type(6) {
+.testemonials .test_social li:nth-of-type(6) {
   content: url(=/assets/social_you.png);
 }
 
