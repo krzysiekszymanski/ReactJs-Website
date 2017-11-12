@@ -42,15 +42,15 @@
        }
 
        :first-of-type {
-         content: url("../../../../images/icon_apple.png");
+         content: url("./img/icon_apple.png");
          padding: 12px;
        }
        :nth-of-type(2) {
-         content: url("../../../../images/icon_android.png");
+         content: url("./img/icon_android.png");
          padding: 12px;
        }
        :last-of-type{
-         content: url("../../../../images/icon_windows.png");
+         content: url("./img/icon_windows.png");
          padding: 12px;
        }
        :hover {
@@ -59,8 +59,5 @@
 
        }
      }
-
    }
-
-
 }

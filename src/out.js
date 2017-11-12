@@ -22116,11 +22116,11 @@ var _Testemonials = __webpack_require__(195);
 
 var _Testemonials2 = _interopRequireDefault(_Testemonials);
 
-var _Footer = __webpack_require__(197);
+var _Footer = __webpack_require__(196);
 
 var _Footer2 = _interopRequireDefault(_Footer);
 
-__webpack_require__(199);
+__webpack_require__(198);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -33329,8 +33329,7 @@ var Testemonials = function (_React$Component) {
 exports.default = Testemonials;
 
 /***/ }),
-/* 196 */,
-/* 197 */
+/* 196 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33346,7 +33345,7 @@ var _react = __webpack_require__(14);
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(198);
+__webpack_require__(197);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -33396,19 +33395,19 @@ var Footer = function (_React$Component) {
 exports.default = Footer;
 
 /***/ }),
-/* 198 */
+/* 197 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 199 */
+/* 198 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(200);
+var content = __webpack_require__(199);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -33433,7 +33432,7 @@ if(false) {
 }
 
 /***/ }),
-/* 200 */
+/* 199 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(188)(undefined);
