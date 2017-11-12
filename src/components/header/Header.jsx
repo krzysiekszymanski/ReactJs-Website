@@ -8,7 +8,9 @@ class Header extends React.Component {
             var description = this.props.data.description;
             var networks = this.props.data.social.map((network) => (
                  <li key={network.name} className={network.className}>
-                     <a href={network.url}/>
+                     <a href={network.url}>
+                        <i className={network.icon} />
+                     </a>>
                  </li>
             ));
         }

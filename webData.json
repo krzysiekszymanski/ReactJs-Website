@@ -5,16 +5,19 @@
     "social":[
       {
         "name":"apple",
+        "icon":"fa fa-apple",
         "url":"http://facebook.com/krzysiek.szymanski.58910",
         "className":"social-circle"
       },
       {
         "name":"android",
+        "icon":"fa fa-android",
         "url":"http://googleplus.com",
         "className":"social-circle"
       },
       {
         "name":"windows",
+        "icon":"fa fa-windows",
         "url":"https://www.linkedin.com/in/krzysztof-szyma%C5%84ski-b0264aa4/",
         "className":"social-circle"
       }
@@ -54,27 +57,33 @@
         "social":[
           {
             "name":"twitter",
-            "url":"http://twiter.com"
+            "icon":"fa fa-twitter",
+            "url":"http://facebook.com/krzysiek.szymanski.58910"
           },
           {
             "name":"facebook",
-            "url":"http://facebook.com"
+            "icon":"fa fa-facebook",
+            "url":"http://facebook.com/krzysiek.szymanski.58910"
           },
           {
             "name":"pintrest",
-            "url":"https://www.pintrest.com"
+            "icon":"fa fa-pinterest-p",
+            "url":"http://facebook.com/krzysiek.szymanski.58910"
           },
           {
             "name":"googleplus",
-            "url":"https://www.google.com"
+            "icon":"fa fa-google-plus",
+            "url":"http://facebook.com/krzysiek.szymanski.58910"
           },
           {
             "name":"linkedin",
-            "url":"https://www.linkedin.com"
+            "icon":"fa fa-linkedin",
+            "url":"http://facebook.com/krzysiek.szymanski.58910"
           },
           {
             "name":"youtoube",
-            "url":"https://www.youtube.com"
+            "icon":"fa fa-youtube",
+            "url":"http://facebook.com/krzysiek.szymanski.58910"
           }
         ]
   },

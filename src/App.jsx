@@ -16,16 +16,16 @@ class App extends Component {
     }
     getWebData(){
       $.ajax({
-          url:"https://krzysiekszymanski.github.io/ReactJs-Website/webData.json",
+          url:"webData.json",
           dataType:'json',
           cache: false,
-          success: function(data){
-              this.setState({webData: data});
-          }.bind(this),
-          error: function (xhr, status, err) {
-              console.log(err);
-              alert(err);
-          }
+          success: (data) =>(
+              this.setState({webData: data})
+          ).bind(this),
+          error: (xhr, status, err) =>(
+              console.log(err),
+              alert(err)
+          )
       });
     }
     componentDidMount(){

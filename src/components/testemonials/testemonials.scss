@@ -1,4 +1,5 @@
 @import "../../../style/scss/vendor/grid";
+//@import "../../../style/scss/modules/all";
 .testemonials {
   height:470px;
   text-align: center;
@@ -35,6 +36,8 @@
       font-weight: 700;
     }
   .test_social {
+    display: flex;
+    justify-content: center;
     li {
       margin-top: 30px;
       cursor: pointer;
@@ -42,31 +45,22 @@
       height: 35px;
       border-radius: 50%;
       background-color: $second_color;
-      display: inline-block;
       margin-right: 10px;
       transition: 0.7s;
-      content: url("./img/social_twiter.png");
       padding: 7px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+          a {
+            text-decoration: none;
+            i {
+              font-size: 2.1rem;
+              color: #ffffff;
+            }
+          }
+    &:hover {
+          background-color: $main_color;
     }
-    :nth-of-type(2) {
-      content: url("./img/social_face.png");
-    }
-    li:nth-of-type(3) {
-      content: url("./img/social_pinters.png");
-    }
-    li:nth-of-type(4) {
-      content: url("./img/social_googleplus.png");
-    }
-    li:nth-of-type(5) {
-      content: url("./img/social_linked.png");
-      padding: 2px;
-    }
-    li:nth-of-type(6) {
-      content: url("./img/social_you.png");
-    }
-    :hover {
-      opacity:0.9;
-      background-color: $main_color;
     }
   }
 }

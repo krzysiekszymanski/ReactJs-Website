@@ -90,12 +90,11 @@ header .box p {
 }
 
 header .box .social {
-  flex-direction: row;
+  display: flex;
 }
 
 header .box .social .social-circle {
   cursor: pointer;
-  display: inline-block;
   opacity: 0.7;
   width: 50px;
   height: 50px;
@@ -104,26 +103,22 @@ header .box .social .social-circle {
   margin-right: 17px;
   z-index: 1;
   transition: 0.7s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-header .box .social :first-of-type {
-  content: url(=/assets/icon_apple.png);
-  padding: 12px;
+header .box .social .social-circle a {
+  text-decoration: none;
 }
 
-header .box .social :nth-of-type(2) {
-  content: url(=/assets/icon_android.png);
-  padding: 12px;
+header .box .social .social-circle a i {
+  font-size: 2.5rem;
+  color: #ffffff;
 }
 
-header .box .social :last-of-type {
-  content: url(=/assets/icon_windows.png);
-  padding: 12px;
-}
-
-header .box .social :hover {
+header .box .social .social-circle:hover {
   background-color: #2ecc71;
-  padding: 10px;
 }
 
 * {
@@ -320,6 +315,11 @@ header .box .social :hover {
   font-weight: 700;
 }
 
+.testemonials .test_social {
+  display: flex;
+  justify-content: center;
+}
+
 .testemonials .test_social li {
   margin-top: 30px;
   cursor: pointer;
@@ -327,36 +327,24 @@ header .box .social :hover {
   height: 35px;
   border-radius: 50%;
   background-color: #e2e2e2;
-  display: inline-block;
   margin-right: 10px;
   transition: 0.7s;
-  content: url(=/assets/social_twiter.png);
   padding: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.testemonials .test_social :nth-of-type(2) {
-  content: url(=/assets/social_face.png);
+.testemonials .test_social li a {
+  text-decoration: none;
 }
 
-.testemonials .test_social li:nth-of-type(3) {
-  content: url(=/assets/social_pinters.png);
+.testemonials .test_social li a i {
+  font-size: 2.1rem;
+  color: #ffffff;
 }
 
-.testemonials .test_social li:nth-of-type(4) {
-  content: url(=/assets/social_googleplus.png);
-}
-
-.testemonials .test_social li:nth-of-type(5) {
-  content: url(=/assets/social_linked.png);
-  padding: 2px;
-}
-
-.testemonials .test_social li:nth-of-type(6) {
-  content: url(=/assets/social_you.png);
-}
-
-.testemonials .test_social :hover {
-  opacity: 0.9;
+.testemonials .test_social li:hover {
   background-color: #2ecc71;
 }
 

@@ -8,7 +8,11 @@ class Testemonials extends React.Component {
             var author = this.props.data.author;
             var text = this.props.data.text;
             var networks = this.props.data.social.map((network)=>(
-                 <li key={network.name}></li>
+                 <li key={network.name}>
+                     <a href={network.url}>
+                         <i className={network.icon}></i>
+                     </a>
+                 </li>
             ));
 
         }
