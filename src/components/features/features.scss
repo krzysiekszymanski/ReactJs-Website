@@ -1,3 +1,4 @@
+@import "../../../style/scss/modules/all";
 .features {
   background: #ffffff;
   height: 338px;
@@ -13,7 +14,7 @@
     align-items: center;
     text-align: center;
     span {
-      content: url("../../../images/kol.png");
+      content: url("./img/kol.png");
       padding: 15px;
       background: $main_color;
       width: 100px;
@@ -35,12 +36,12 @@
   }
   :nth-of-type(2) {
     span {
-      content: url("../../../images/world.png");
+      content: url("./img/world.png");
     }
   }
   :last-of-type {
     span {
-      content: url("../../../images/star.png");
+      content: url("./img/star.png");
     }
   }
 }

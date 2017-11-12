@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../css/css/style.css';
+import './notiffied.scss';
 
 class Notiffied extends React.Component {
     render() {

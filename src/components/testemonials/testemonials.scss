@@ -1,3 +1,4 @@
+@import "../../../style/scss/vendor/grid";
 .testemonials {
   height:470px;
   text-align: center;
@@ -23,7 +24,7 @@
   }
   .photo {
     margin: 0 20px;
-    background: url("../../../images/testiomonilas.png")  no-repeat center/cover;
+    background: url("./img/testiomonilas.png")  no-repeat center/cover;
     width: 100%;
     height: 50px;
   }
@@ -44,24 +45,24 @@
       display: inline-block;
       margin-right: 10px;
       transition: 0.7s;
-      content: url("../../../images/social_twiter.png");
+      content: url("../../../../images/social_twiter.png");
       padding: 7px;
     }
     :nth-of-type(2) {
-      content: url("../../../images/social_face.png");
+      content: url("../../../../images/social_face.png");
     }
     li:nth-of-type(3) {
-      content: url("../../../images/social_pinters.png");
+      content: url("../../../../images/social_pinters.png");
     }
     li:nth-of-type(4) {
-      content: url("../../../images/social_googleplus.png");
+      content: url("../../../../images/social_googleplus.png");
     }
     li:nth-of-type(5) {
-      content: url("../../../images/social_linked.png");
+      content: url("../../../../images/social_linked.png");
       padding: 2px;
     }
     li:nth-of-type(6) {
-      content: url("../../../images/social_you.png");
+      content: url("../../../../images/social_you.png");
     }
     :hover {
       opacity:0.9;

@@ -1,3 +1,5 @@
+@import "../../../style/scss/modules/all";
+
 .notiffied {
   height: 430px;
   background-color: $second_color;
@@ -55,7 +57,7 @@
       justify-content: center;
       div {
         margin: 55px 0 25px 0;
-        background: url("../../../images/video.png")  no-repeat center/cover;
+        background: url("./img/video.png")  no-repeat center/cover;
         width: 100%;
         height: 300px;
         border-radius: 5px;

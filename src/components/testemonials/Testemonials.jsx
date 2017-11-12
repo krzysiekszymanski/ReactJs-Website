@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../css/css/style.css';
+//import './testemonials.scss';
 
 
 class Testemonials extends React.Component {
@@ -7,9 +7,9 @@ class Testemonials extends React.Component {
         if(this.props.data) {
             var author = this.props.data.author;
             var text = this.props.data.text;
-            var networks = this.props.data.social.map(function(network){
-                return <li key={network.name}></li>
-            });
+            var networks = this.props.data.social.map((network)=>(
+                 <li key={network.name}></li>
+            ));
 
         }
         return (

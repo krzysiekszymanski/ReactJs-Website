@@ -5,7 +5,7 @@ const path = require("path");
 module.exports = {
     entry : {
         'src/out.js': './src/Index.jsx',
-        'css/style.css~': './css/scss/style.scss'
+        'style/css/style.css~': './style/scss/style.scss'
     },
     output : {
         path: __dirname+'/',
@@ -57,7 +57,7 @@ module.exports = {
 
     },
     plugins: [
-        new ExtractTextPlugin('./css/css/style.css')
+        new ExtractTextPlugin('./style/css/style.css')
     ]
 
 }

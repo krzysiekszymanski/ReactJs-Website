@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
-import Header from './components/Header.jsx';
-import Notiffied from './components/Notiffied.jsx';
-import Features from './components/Features.jsx';
-import Testemonials from './components/Testemonials.jsx';
-import Footer from './components/Footer.jsx';
+import Header from './components/header/Header.jsx';
+import Notiffied from './components/notiffied/Notiffied.jsx';
+import Features from './components/features/Features.jsx';
+import Testemonials from './components/testemonials/Testemonials.jsx';
+import Footer from './components/footer/Footer.jsx';
+import '../style/css/style.css';
 
 class App extends Component {
     constructor(props) {
@@ -13,7 +14,6 @@ class App extends Component {
             webData: {}
         }
     }
-
     getWebData(){
       $.ajax({
           url:"https://krzysiekszymanski.github.io/ReactJs-Website/webData.json",
@@ -26,7 +26,6 @@ class App extends Component {
               console.log(err);
               alert(err);
           }
-
       });
     }
     componentDidMount(){

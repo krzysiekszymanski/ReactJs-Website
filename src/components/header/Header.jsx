@@ -1,16 +1,16 @@
 import React from 'react';
-import '../../css/css/style.css';
-
-
+import './header.scss';
 
 class Header extends React.Component {
     render() {
         if(this.props.data) {
             var title = this.props.data.title;
             var description = this.props.data.description;
-            var networks = this.props.data.social.map(function(network){
-                return <li key={network.name} className={network.className}><a href={network.url}/></li>
-            });
+            var networks = this.props.data.social.map((network) => (
+                 <li key={network.name} className={network.className}>
+                     <a href={network.url}/>
+                 </li>
+            ));
         }
         return (
             <header className={"header"}>
